@@ -1,0 +1,10 @@
+# Seconds to delay sending the message
+delay: 2
+# The welcome message. Supports MiniMessage and PlaceholderAPI.
+# PlaceholderAPI placeholders are parsed first.
+# MiniMessage is in lenient mode.
+message: |
+  Welcome back, <rainbow>%player_name%</rainbow>!
+  
+  Here are some useful commands:
+  - <click:run_command:/menu>/menu</click>
